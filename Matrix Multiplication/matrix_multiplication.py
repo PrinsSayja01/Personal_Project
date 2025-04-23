@@ -1,8 +1,4 @@
 
-# Week 3: Linear Algebra and Calculus for AI
-
-# Weekend Project: Matrix Multiplication from Scratch with NumPy Verification
-
 # 1. Manual matrix multiplication function
 def manual_matrix_multiply(A, B):
     result = [[0 for _ in range(len(B[0]))] for _ in range(len(A))]
